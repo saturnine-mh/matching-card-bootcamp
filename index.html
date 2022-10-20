@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		 
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Wire+One&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	<h1>Space Themed Matching Card Game</h1>
+ <section id="box">
+    <section id="topRow">
+        <section id="topRow1" class="boxClass">
+            <img id="topRow1IMG" src="images/stars.gif">
+        </section>
+        <section id="topRow2" class="boxClass">
+            <img id="topRow2IMG" src="images/stars.gif">
+        </section>
+        <section id="topRow3" class="boxClass">
+            <img id="topRow3IMG" src="images/stars.gif">
+        </section>
+        <section id="topRow4" class="boxClass">
+            <img id="topRow4IMG" src="images/stars.gif">
+        </section>
+        <section id="topRow5" class="boxClass">
+            <img id="topRow5IMG" src="images/stars.gif">
+        </section>
+    </section>
+    <section id="bottomRow">
+        <section id="bottomRow1" class="boxClass">
+    <img id="bottomRow1IMG" src="images/stars.gif">    
+        </section>
+        <section id="bottomRow2" class="boxClass">
+            <img id="bottomRow2IMG" src="images/stars.gif"> 
+        </section>
+        <section id="bottomRow3" class="boxClass">
+            <img id="bottomRow3IMG" src="images/stars.gif"> 
+        </section>
+        <section id="bottomRow4" class="boxClass">
+            <img id="bottomRow4IMG" src="images/stars.gif"> 
+        </section>
+        <section id="bottomRow5" class="boxClass">
+            <img id="bottomRow5IMG" src="images/stars.gif"> 
+        </section>
+    </section>
+
+ </section>
+ <h2>Turn Counter: </h2>
+ <section id="bottomButtons">
+ <button id="start">START</button>
+ <button id="reset" onClick="document.location.reload(true)">RESET</button>
+ 
+</section>
+        
+        
+
+
+		<script type="text/javascript" src="js/matching.js"></script>
+	</body>
+</html>
+<!-- else if(turnCounter % 2 == 0){
+    if(boxColorArray[0] !== boxColorArray[1]){
+       console.log('not match')
+       // document.getElementById('topRow1').style.backgroundColor = 'white'
+       // document.getElementById('topRow2').style.backgroundColor = 'white'
+       // document.getElementById('bottomRow1').style.backgroundColor = 'white'
+       // document.getElementById('bottomRow2').style.backgroundColor = 'white'
+       // document.getElementById('bottomRow3').style.backgroundColor = 'white'
+       // document.getElementById('bottomRow4').style.backgroundColor = 'white'
+       // document.getElementById('topRow3').style.backgroundColor = 'white'
+       // document.getElementById('topRow4').style.backgroundColor = 'white'
+       for(let i = 0; i < boxesClicked.length; i++){
+           document.getElementById(boxesClicked[i]).style.backgroundColor = 'white'
+           console.log(boxesClicked[i])
+       }
+       
+
+       
+   } -->
